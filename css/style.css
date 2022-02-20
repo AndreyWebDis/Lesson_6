@@ -1,0 +1,160 @@
+@import "null.css";
+
+
+@font-face {
+   font-family: 'Circular';
+   src: url('../fonts/CircularStd-Black.woff2') format('woff2'),
+       url('../fonts/CircularStd-Black.woff') format('woff');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Circular';
+   src: url('../fonts/CircularStd-Book.woff2') format('woff2'),
+       url('../fonts/CircularStd-Book.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Circular';
+   src: url('../fonts/CircularStd-Medium.woff2') format('woff2'),
+       url('../fonts/CircularStd-Medium.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Circular';
+   src: url('../fonts/CircularStd-Bold.woff2') format('woff2'),
+       url('../fonts/CircularStd-Bold.woff') format('woff');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+
+body{
+   font-family: Circular;
+   font-weight: 400;
+   font-size: 18px;
+   color: #5F5F5F;
+}
+
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+   padding: 139px 0px;
+}
+
+[class*="__container"]{
+   max-width: 1025px;
+   margin: 0 auto;
+}
+
+
+.top__title {
+   font-size: 65px;
+   color: #313131;
+   text-align: center;
+   margin: 0px 0px 20px 0px;
+   line-height: 1.26;
+}
+.top__sub-title {
+   font-size: 20px;
+   text-align: center;
+   margin: 0px 0px 201px 0px;
+   line-height: 1.26;
+}
+
+.bottom {
+   margin: 0px 0px 50px 0px;
+}
+
+.bottom__box{
+   display: inline-block;
+   max-width: 508px;
+   line-height: 1.26;
+}
+.bottom__title {
+   font-weight: 700;
+   font-size: 34px;
+   color: #313131;
+   margin: 0px 0px 20px 0px;
+}
+.bottom__text {
+   margin: 0px 0px 125px 0px;
+}
+.bottom__image{
+margin: 0px 0px 50px 0px;
+}
+.bottom__name {
+   font-weight: 700;
+   color: #313131;
+   line-height: 1.26;
+   margin-bottom: 5px;
+}
+.bottom__special {
+   color: #B8B8B8;
+   margin: 0px 0px 30px 0px;
+}
+.link__container{
+   text-align: center;
+}
+
+.link{
+   font-size: 30px;
+   padding: 10px 20px;
+   color: rgb(30, 153, 30);
+   border: 2px dashed rgb(18, 196, 18);
+   border-radius: 5px;
+   box-shadow: 5px 5px 50px 2px #32be3e;
+}
+
+
+/* ==================домашняя работа===================================== */
+
+.homework p {
+   margin: 0px 0px 20px 0px;
+   padding: 20px;
+}
+.homework__text {
+   border: 2px solid rgb(38, 167, 184);
+   border-radius: 5px;
+   box-shadow: 2px 2px 5px 5px rgb(38, 167, 184, 0.5);
+}
+.homework__text1 {
+   border: 5px dashed rgb(38, 167, 184);
+   border-radius: 15px;
+   box-shadow: 2px 2px 5px 5px rgb(38, 167, 184, 0.5);
+}
+.homework__text2 {
+   border: 3px dotted rgb(38, 167, 184);
+   border-radius: 5px;
+   box-shadow: 2px 2px 5px 5px rgb(38, 167, 184, 0.5);
+}
+.homework__text3 {
+   text-align: center;
+   outline: 2px solid rgba(161, 29, 29, 0.741);
+   border-radius: 10px;
+}
+
+.homework__text4 {
+   text-align: right;
+   font-size: 30px;
+   color: #1d3ed1;
+   max-width: 400px;
+   text-shadow: 2px 2px 2px #1d3ed1;
+   box-shadow: inset 2px 2px 20px 5px #2380d6;
+}
+.homework__text5 {
+   font-size: 30px;
+   color: #14995b;
+   max-width: 400px;
+   text-shadow: 2px 2px 2px #1d3ed1;
+   box-shadow: 2px 2px 20px 5px #2380d6; 
+}
